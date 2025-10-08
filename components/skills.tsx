@@ -9,7 +9,14 @@ const skillCategories = [
   },
   {
     title: "Styling & UI",
-    skills: ["Tailwind CSS", "Material UI", "Shadcn/ui", "SCSS", "Bootstrap"],
+    skills: [
+      "Tailwind CSS",
+      "Material UI",
+      "Shadcn/ui",
+      "SCSS",
+      "Bootstrap",
+      "Framer Motion",
+    ],
   },
   {
     title: "Tools & Platforms",
@@ -21,19 +28,31 @@ const skillCategories = [
   },
   {
     title: "Core Competencies",
-    skills: ["Web Performance", "Accessibility (WCAG)", "Responsive Design", "SEO", "PWA", "Code Review"],
+    skills: [
+      "Web Performance",
+      "Accessibility (WCAG)",
+      "Responsive Design",
+      "SEO",
+      "PWA",
+      "Code Review",
+    ],
   },
-]
+];
 
 export function Skills() {
   return (
-    <section id="skills" className="py-24 px-6">
+    <section id="skills" className="py-24 px-6 bg-gray-200">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-12">Skills & Technologies</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-12">
+          Skills & Technologies
+        </h2>
+        <hr className="w-full h-1 my-8 bg-gray-300 border-0" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category) => (
             <div key={category.title} className="space-y-4">
-              <h3 className="text-xl font-semibold text-muted-foreground">{category.title}</h3>
+              <h3 className="text-xl font-semibold text-foreground">
+                {category.title}
+              </h3>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
                   <span
@@ -49,5 +68,5 @@ export function Skills() {
         </div>
       </div>
     </section>
-  )
+  );
 }
