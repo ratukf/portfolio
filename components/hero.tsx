@@ -14,6 +14,9 @@ export function Hero() {
   // Move left for content, right for image as you scroll
   const contentX = useTransform(scrollYProgress, [0, 1], [0, -200]);
   const imageX = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const isPhoneResolution =
+    typeof window !== "undefined" &&
+    window.matchMedia("(max-width: 640px)").matches;
 
   return (
     <section
@@ -33,7 +36,7 @@ export function Hero() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-16 w-full max-w-6xl mx-auto">
         {/* Hero Content */}
         <motion.div
-          style={{ x: contentX }}
+          style={!isPhoneResolution ? { x: contentX } : undefined}
           className="flex-1 max-w-2xl text-center lg:text-left space-y-8"
           initial={{ opacity: 0, y: 250 }}
           animate={{ opacity: 1, y: 0 }}
@@ -126,21 +129,23 @@ export function Hero() {
           </motion.p>
         </motion.div>
         {/* Image Placeholder */}
-        <motion.div
-          style={{ x: imageX }}
-          className="flex-1 flex items-center justify-center"
-          initial={{ opacity: 0, y: 250 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
-        >
-          <div className="relative w-96 h-96 lg:w-[30rem] lg:h-[30rem] rounded-lg overflow-hidden">
-            <img
-              src="hero.png"
-              alt="Ratu Kila Fatimah"
-              className="object-cover w-full h-full"
-            />
-          </div>
-        </motion.div>
+        {!isPhoneResolution && (
+          <motion.div
+            style={{ x: imageX }}
+            className="flex-1 flex items-center justify-center"
+            initial={{ opacity: 0, y: 250 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
+          >
+            <div className="relative w-96 h-96 lg:w-[30rem] lg:h-[30rem] rounded-lg overflow-hidden">
+              <img
+                src="hero.png"
+                alt="Ratu Kila Fatimah"
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </motion.div>
+        )}
       </div>
     </section>
   );
