@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "framer-motion";
+
 const skillCategories = [
   {
     title: "Languages",
@@ -55,12 +58,18 @@ export function Skills() {
               </h3>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
-                  <span
+                  <motion.span
                     key={skill}
+                    whileHover={{
+                      scale: 1.15,
+                      backgroundColor: "#6366f1",
+                      color: "#fff",
+                    }}
+                    transition={{ type: "spring", stiffness: 300 }}
                     className="px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
                   >
                     {skill}
-                  </span>
+                  </motion.span>
                 ))}
               </div>
             </div>
