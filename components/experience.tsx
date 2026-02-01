@@ -36,6 +36,18 @@ const experiences = [
     ],
     tags: ["HTML", "CSS", "JavaScript", "Web Development"],
   },
+  {
+    company: "Numerical Methods Physics Laboratory at UNPAD – Sumedang",
+    role: "Laboratory Assistant",
+    period: "Feb 2021 – May 2022",
+    location: "Kabupaten Sumedang, Indonesia",
+    achievements: [
+      "Developed and facilitated programming algorithm and numerical computation cases to enhance students’ understanding during practical sessions",
+      "Evaluated over 330 practical reports and provided feedback based on assessment standards.",
+      "Contributed to numerical problem-solving through mathematical, physical, and programming analysis",
+    ],
+    tags: ["Matlab", "Python"],
+  },
 ];
 
 export function Experience() {
