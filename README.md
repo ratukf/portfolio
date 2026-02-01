@@ -32,9 +32,13 @@ A modern, high-performance personal landing page built with Next.js 14, TypeScri
 
 \`\`\`bash
 npm install
+
 # or
+
 yarn install
+
 # or
+
 pnpm install
 \`\`\`
 
@@ -42,9 +46,13 @@ pnpm install
 
 \`\`\`bash
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
 \`\`\`
 
@@ -75,6 +83,7 @@ npm run start
 ### Update Content
 
 Edit the content in the component files:
+
 - `components/hero.tsx` — Name, title, tagline
 - `components/about.tsx` — Bio and summary
 - `components/skills.tsx` — Skills and technologies
@@ -85,6 +94,7 @@ Edit the content in the component files:
 ### Update Colors
 
 Modify the design tokens in `app/globals.css`:
+
 - `--color-accent` — Primary accent color (currently emerald)
 - `--color-primary` — Primary text/button color
 - `--color-background` — Page background
@@ -92,23 +102,25 @@ Modify the design tokens in `app/globals.css`:
 ### Update SEO
 
 Edit metadata in `app/layout.tsx` and update URLs in:
+
 - `app/robots.ts`
 - `app/sitemap.ts`
 
 ## 📊 Performance
 
 This site is optimized for:
+
 - Fast initial page load
 - Minimal JavaScript bundle
 - Optimized images with next/image
 - Semantic HTML for accessibility
 - Reduced motion support
 
-## 📄 License
+## License
 
-© 2025 Ratu Kila Fatimah. All rights reserved.
+© 2026 Ratu Kila Fatimah. All rights reserved.
 
-## 🤝 Contact
+## Contact
 
 - **Email:** ratukf@gmail.com
 - **LinkedIn:** [linkedin.com/in/ratukf](https://linkedin.com/in/ratukf)
