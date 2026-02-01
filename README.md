@@ -30,8 +30,9 @@ A modern, high-performance personal landing page built with Next.js 14, TypeScri
 1. Clone or download this repository
 2. Install dependencies:
 
-\`\`\`bash
+```bash
 npm install
+```
 
 # or
 
@@ -39,13 +40,15 @@ yarn install
 
 # or
 
+```bash
 pnpm install
-\`\`\`
+```
 
 3. Run the development server:
 
-\`\`\`bash
+```bash
 npm run dev
+```
 
 # or
 
@@ -53,30 +56,11 @@ yarn dev
 
 # or
 
+```bash
 pnpm dev
-\`\`\`
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 🚢 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. Click the "Publish" button in the v0 UI, or
-2. Push to GitHub and import in Vercel Dashboard, or
-3. Use Vercel CLI:
-
-\`\`\`bash
-npm i -g vercel
-vercel
-\`\`\`
-
-### Build for Production
-
-\`\`\`bash
-npm run build
-npm run start
-\`\`\`
 
 ## 📝 Customization
 
