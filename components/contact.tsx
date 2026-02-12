@@ -22,7 +22,7 @@ export function Contact() {
           </a>
           <div className="inline-flex items-center gap-3 text-muted-foreground">
             <MapPin className="w-5 h-5" />
-            <span>Bandung, Indonesia • Remote</span>
+            <span>Bandung, Indonesia</span>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export function Contact() {
               Bahasa Indonesia (Native)
             </span>
             <span className="px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium">
-              English (Intermediate to Advanced)
+              English (Intermediate)
             </span>
           </div>
         </div>

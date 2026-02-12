@@ -1,16 +1,16 @@
 const education = {
   degree: "Bachelor of Science in Physics",
   institution: "Universitas Padjadjaran",
-  period: "2019 – 2024",
+  period: "Aug 2019 – Jan 2024",
   gpa: "3.41",
   thesis:
-    "Wind Simulation in the UNPAD Jatinangor Campus Area using RANS (Reynolds-Averaged Navier-Stokes) Approach",
+    "Wind Simulation in the UNPAD Jatinangor Campus Area using RANS (Reynolds Averaged Navier Stokes) Approach",
 };
 
 const certifications = [
   {
     title: "React JS for Intermediate",
-    year: "2024",
+    year: "Aug 2024 - Sep 2024",
     topics: [
       "React Components",
       "Hooks",
@@ -23,7 +23,7 @@ const certifications = [
   },
   {
     title: "Data Science Academy",
-    year: "2021",
+    year: "Aug 2021",
     topics: [
       "SQL Fundamental",
       "Python Fundamental",

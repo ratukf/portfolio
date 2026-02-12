@@ -9,26 +9,19 @@ const skillCategories = [
   },
   {
     title: "Frameworks & Libraries",
-    skills: ["React.js", "Next.js", "Redux", "Jotai"],
+    skills: ["React.js", "Next.js", "Redux", "Jotai", "Node.js", "NestJS"],
   },
   {
     title: "Styling & UI",
-    skills: [
-      "Tailwind CSS",
-      "Material UI",
-      "Shadcn/ui",
-      "SCSS",
-      "Bootstrap",
-      "Framer Motion",
-    ],
+    skills: ["Tailwind CSS", "Material UI", "SCSS", "Bootstrap"],
   },
   {
     title: "Tools & Platforms",
     skills: ["Git", "GitHub", "Figma", "Webpack", "Vite", "Axios"],
   },
   {
-    title: "Databases & Cloud",
-    skills: ["SQL", "Database Design"],
+    title: "Databases",
+    skills: ["PostgreSQL", "SQL", "Database Design"],
   },
   {
     title: "Core Competencies",
@@ -38,7 +31,6 @@ const skillCategories = [
       "Responsive Design",
       "SEO",
       "PWA",
-      "Code Review",
     ],
   },
 ];

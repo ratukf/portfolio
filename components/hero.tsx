@@ -125,7 +125,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Bandung, Indonesia • Open to Remote Work
+            Bandung, Indonesia
           </motion.p>
         </motion.div>
         {/* Image Placeholder */}

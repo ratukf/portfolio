@@ -1,5 +1,33 @@
 const projects = [
   {
+    title: "Todo App",
+    description:
+      "A fullstack Todo app built with NestJS (backend) and React (frontend)",
+    techStack: [
+      "NestJS",
+      "TypeScript",
+      "TypeORM",
+      "PostgreSQL",
+      "React",
+      "Material UI",
+      "Axios",
+      "React Query",
+      "Formik",
+      "Yup",
+    ],
+    features: [
+      "CRUD operations for Todo items",
+      "Search Todos by title",
+      "Patch Todo status and optional problem description",
+      "DTO-based validation",
+      "CORS enabled for frontend access",
+    ],
+    inProgress: [],
+    links: "",
+    github: "https://github.com/ratukf/todo",
+    preview: "/projects.png",
+  },
+  {
     title: "Exclusive - Ongoing Ecommerce Platform Project",
     description:
       "Ecommerce web application using real authentication and product data. This project demonstrates the ability to build scalable front-end architecture, manage global state, and handle real-world user flows.",
@@ -11,6 +39,7 @@ const projects = [
       "Formik",
       "Yup",
       "Firebase",
+      "Node.js",
     ],
     features: [
       "User authentication using Firebase",
@@ -100,14 +129,16 @@ export function Projects() {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a
-                    href={project.links}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
-                  >
-                    Live Demo
-                  </a>
+                  {project.links && (
+                    <a
+                      href={project.links}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline"
+                    >
+                      Live Demo
+                    </a>
+                  )}
                   <a
                     href={project.github}
                     target="_blank"

@@ -19,7 +19,7 @@ export default function Home() {
       <Contact />
       <Footer />
       <a
-        href="/CV_RatuKilaFatimah.pdf"
+        href="/CV_SoftwareEngineer_RatuKilaFatimah.pdf"
         download
         className="
           fixed z-50
