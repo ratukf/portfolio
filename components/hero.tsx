@@ -57,7 +57,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Front-End Developer
+              Software Engineer
             </motion.p>
           </div>
 
@@ -68,7 +68,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             Building accessible, pixel-perfect web experiences with React,
-            Next.js, and modern frontend technologies
+            NestJS, and modern technologies.
           </motion.p>
 
           <motion.div

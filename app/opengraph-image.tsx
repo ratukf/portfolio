@@ -1,12 +1,12 @@
-import { ImageResponse } from "next/og"
+import { ImageResponse } from "next/og";
 
-export const runtime = "edge"
-export const alt = "Ratu Kila Fatimah — Front-End Developer"
+export const runtime = "edge";
+export const alt = "Ratu Kila Fatimah — Software Engineer";
 export const size = {
   width: 1200,
   height: 630,
-}
-export const contentType = "image/png"
+};
+export const contentType = "image/png";
 
 export default async function Image() {
   return new ImageResponse(
@@ -48,7 +48,7 @@ export default async function Image() {
             marginBottom: "40px",
           }}
         >
-          Front-End Developer
+          Software Engineer
         </p>
         <p
           style={{
@@ -57,12 +57,14 @@ export default async function Image() {
             maxWidth: "800px",
           }}
         >
-          Building accessible, high-performance web applications with React.js, Next.js, and Tailwind CSS
+          Software Engineer with expertise in React.js, Next.js, Tailwind CSS,
+          and Material UI. Specializing in building accessible, high-performance
+          web applications with over a year of experience.
         </p>
       </div>
     </div>,
     {
       ...size,
     },
-  )
+  );
 }

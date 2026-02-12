@@ -19,15 +19,11 @@ export function About() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-8">About</h2>
           <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
             <p>
-              I'm a results-driven Front-End Developer with{" "}
+              Software Engineer with over a year of professional experience. I
+              specialize in building high-performance, accessible web
+              applications using{" "}
               <strong className="text-foreground">
-                1 year of corporate experience
-              </strong>
-              , 7 months of freelance expertise, and 3 months as a Software
-              Engineer Intern. I specialize in building high-performance,
-              accessible web applications using{" "}
-              <strong className="text-foreground">
-                React.js, Next.js, Tailwind CSS, and Material UI
+                React.js, NestJS, and Material UI
               </strong>
               .
             </p>
