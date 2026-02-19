@@ -23,7 +23,7 @@ export function About() {
               specialize in building high-performance, accessible web
               applications using{" "}
               <strong className="text-foreground">
-                React.js, NestJS, and Material UI
+                React.js, Material UI, Axios, and Redux
               </strong>
               .
             </p>

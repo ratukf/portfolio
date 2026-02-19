@@ -67,8 +67,8 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Building accessible, pixel-perfect web experiences with React,
-            NestJS, and modern technologies.
+            Building accessible and scalable web with React, Material UI,
+            Node.js, Express.js, and modern technologies.
           </motion.p>
 
           <motion.div

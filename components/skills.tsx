@@ -5,11 +5,19 @@ import { useEffect, useState } from "react";
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "SQL", "Python", "R"],
+    skills: ["HTML5/CSS3", "JavaScript & TypeScript", "SQL", "Python", "R"],
   },
   {
     title: "Frameworks & Libraries",
-    skills: ["React.js", "Next.js", "Redux", "Jotai", "Node.js", "NestJS"],
+    skills: [
+      "React.js",
+      "Next.js",
+      "Redux",
+      "Jotai",
+      "Node.js",
+      "Express.js",
+      "NestJS",
+    ],
   },
   {
     title: "Styling & UI",
