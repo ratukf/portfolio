@@ -1,3 +1,5 @@
+# My Portfolio
+
 A modern personal Software Engineer Portfolio landing page built with Next.js, TypeScript, and Tailwind CSS.
 
 ## About me
@@ -20,9 +22,9 @@ Repo: https://github.com/ratukf/ecommerce-exclusive
 
 ---
 
-### Coffee Shop Web
-
 <img width="1896" height="905" alt="image" src="https://github.com/user-attachments/assets/a5f4d80c-9da2-4274-b7ae-dd62d9d61b65" />
+
+### Coffee Shop Web
 
 A web application that simulates a coffee shop experience, focusing on product browsing, cart management, and checkout flow logic without real backend integration built with Next.js, jotai, vite, tailwind, and NextUI.
 
@@ -33,6 +35,7 @@ Repo: https://github.com/ratukf/coffee-shop-nextjs
 --- 
 
 ### Inventory Management
+
 A backend project for managing products and orders with stock validation to demonstrate data relation between products, orders, and ordered item built with Node.js, Express, Prisma, PostgreSQL.
 
 Repo: https://github.com/ratukf/Inventory-Management
