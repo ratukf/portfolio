@@ -15,15 +15,19 @@ Software Engineer with hands-on experience building and maintaining enterprise-l
 A modern e-commerce web app built with React, TypeScript, Vite, Material UI, Firebase for backend services, and Node.js for bulk database management to demonstrate online store features such as authentication, user profile management, payment simulation, product browse, cart page, and wishlist page.
 
 Demo: https://ecommerce-exclusive-one.vercel.app
+
 Repo: https://github.com/ratukf/ecommerce-exclusive 
 
 ---
 
 ### Coffee Shop Web
 
+<img width="1896" height="905" alt="image" src="https://github.com/user-attachments/assets/a5f4d80c-9da2-4274-b7ae-dd62d9d61b65" />
+
 A web application that simulates a coffee shop experience, focusing on product browsing, cart management, and checkout flow logic without real backend integration built with Next.js, jotai, vite, tailwind, and NextUI.
 
 Demo: https://coffee-shop-nextjs-2.vercel.app
+
 Repo: https://github.com/ratukf/coffee-shop-nextjs
 
 --- 
