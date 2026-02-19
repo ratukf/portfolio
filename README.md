@@ -1,104 +1,55 @@
-# Ratu Kila Fatimah — Personal Portfolio
+A modern personal Software Engineer Portfolio landing page built with Next.js, TypeScript, and Tailwind CSS.
 
-A modern, high-performance personal landing page built with Next.js 14, TypeScript, and Tailwind CSS.
+## About me
 
-## 🚀 Features
+Software Engineer with hands-on experience building and maintaining enterprise-level Wealth Management web applications. I developed 10+ frontend modules from scratch and optimized performance across 20+ modules while also expanding into backend development by utilizing React.js, Material UI, Axios, webpack, and Redux.
 
-- ⚡ **Performance Optimized** — Lighthouse score 90+ across all metrics
-- ♿ **Accessible** — WCAG AA compliant with semantic HTML and ARIA labels
-- 📱 **Fully Responsive** — Mobile-first design that works on all devices
-- 🎨 **Modern Design** — Clean, professional aesthetic with emerald accents
-- 🔍 **SEO Ready** — Comprehensive meta tags, Open Graph, and Twitter Cards
-- 🌐 **Production Ready** — Optimized for Vercel deployment
+- Optimized API performance across 5–10 modules, improving load times significantly
+- Built reusable components to reduce duplication and dev time that deployed across 10+ modules
+- Resolved dozens of production bugs and hundreds of development bugs in an enterprise environment
 
-## 🛠️ Tech Stack
+## Highlighted Project
+<img width="1896" height="902" alt="image" src="https://github.com/user-attachments/assets/9422e56b-20da-493c-b3d6-0d53954b29b2" />
 
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS 3+
-- **Icons:** Lucide React
-- **Font:** Inter (Google Fonts)
+### Ecommerce 
+A modern e-commerce web app built with React, TypeScript, Vite, Material UI, Firebase for backend services, and Node.js for bulk database management to demonstrate online store features such as authentication, user profile management, payment simulation, product browse, cart page, and wishlist page.
 
-## 📦 Getting Started
+Demo: https://ecommerce-exclusive-one.vercel.app
+Repo: https://github.com/ratukf/ecommerce-exclusive 
 
-### Prerequisites
+---
 
-- Node.js 18+ and npm/yarn/pnpm
+### Coffee Shop Web
 
-### Installation
+A web application that simulates a coffee shop experience, focusing on product browsing, cart management, and checkout flow logic without real backend integration built with Next.js, jotai, vite, tailwind, and NextUI.
 
-1. Clone or download this repository
-2. Install dependencies:
+Demo: https://coffee-shop-nextjs-2.vercel.app
+Repo: https://github.com/ratukf/coffee-shop-nextjs
 
-```bash
-npm install
-```
+--- 
 
-# or
+### Inventory Management
+A backend project for managing products and orders with stock validation to demonstrate data relation between products, orders, and ordered item built with Node.js, Express, Prisma, PostgreSQL.
 
-yarn install
+Repo: https://github.com/ratukf/Inventory-Management
 
-# or
+---
 
-```bash
-pnpm install
-```
+## My Frontend Stack
 
-3. Run the development server:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
-```bash
-npm run dev
-```
+## My Backend Stack
 
-# or
-
-yarn dev
-
-# or
-
-```bash
-pnpm dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 📝 Customization
-
-### Update Content
-
-Edit the content in the component files:
-
-- `components/hero.tsx` — Name, title, tagline
-- `components/about.tsx` — Bio and summary
-- `components/skills.tsx` — Skills and technologies
-- `components/experience.tsx` — Work experience
-- `components/education.tsx` — Education and certifications
-- `components/contact.tsx` — Contact information
-
-### Update Colors
-
-Modify the design tokens in `app/globals.css`:
-
-- `--color-accent` — Primary accent color (currently emerald)
-- `--color-primary` — Primary text/button color
-- `--color-background` — Page background
-
-### Update SEO
-
-Edit metadata in `app/layout.tsx` and update URLs in:
-
-- `app/robots.ts`
-- `app/sitemap.ts`
-
-## 📊 Performance
-
-This site is optimized for:
-
-- Fast initial page load
-- Minimal JavaScript bundle
-- Optimized images with next/image
-- Semantic HTML for accessibility
-- Reduced motion support
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
 ## License
 
